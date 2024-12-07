@@ -1,0 +1,18 @@
+[package]
+name = "crosswire"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+async-channel = "2.3.1"
+eframe = "0.29.1"
+egui = "0.29.1"
+env_logger = "0.11.5"
+glib = "0.20.6"
+log = "0.4.22"
+pipewire = "0.8.0"
+pipewire-sys = "0.8.0"
+png = "0.17.14"
+thiserror = "2.0.3"
+tray-item = { version = "0.10.0", features = ["ksni"] }
